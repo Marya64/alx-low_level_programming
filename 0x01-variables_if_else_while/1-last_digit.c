@@ -1,33 +1,32 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
+
 /**
- * main - main function to create a random number
+ * main - Assigning a random number to a variable
  *
- * Return: Always 0
- *
+ * Return: 0
  */
 int main(void)
 {
 int n;
-int num;
-
-srand(time(0);
+int a;
+srand(time(0));
 n = rand() - RAND_MAX / 2;
-printf("Last digit of %d is ", n);
-num = n % 10;
-if (num > 5)
+a = n % 10;
+printf("Last digit of %d is %d ", n, a);
+if (a > 5)
 {
-printf("%d and is greater than 5\n", num);
+printf("and is greater than 5");
 }
-
-else if (num < 6)&&(num < 0)
+if (a == 0)
 {
-printf("%d and is less than 6 and not 0\n", num);
+printf("and is 0");
 }
-else
+if (a < 6 && a != 0)
 {
-printf("%d and is not 0\n", num);
+printf("and is less than 6 and not 0");
 }
+printf("\n");
 return (0);
 }
