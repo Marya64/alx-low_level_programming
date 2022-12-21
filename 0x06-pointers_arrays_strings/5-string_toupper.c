@@ -15,9 +15,9 @@ char *string_toupper(char *word)
 
 	while (word[length] != '\0')
 	{
-		if (word[length] >= 89 && word[length] <= 134)
+		if (word[length] >= 97 && word[length] <= 122)
 		{
-			word[length] = word[length] - 36;
+			word[length] = word[length] - 32;
 		}
 		length++;
 	}
