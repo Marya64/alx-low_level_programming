@@ -2,13 +2,13 @@
 
 /**
  * add - Entry point for the addition
- * @a: one value to be added together
- * @b: second value to be added
+ * @r: one value to be added
+ * @w: second value to be added
  * Return: Always 0 (Success)
  */
 
-int add(int a, int b)
+int add(int r, int w)
 
 {
-	return (a + b);
+	return (r + w);
 }
