@@ -3,7 +3,7 @@
 /**
  * _isalpha - Return 1 if c is a letter. lowercase or uppercase
  *
- * Return: 1 if its alphabet otherwise 0
+ * Return: 0 if otherwise
  */
 
 int _isalpha(int c)
