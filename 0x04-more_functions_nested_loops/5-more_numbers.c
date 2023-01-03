@@ -7,7 +7,7 @@
 
 void more_numbers(void)
 {
-	int s, x;
+	int s, m;
 
 	s = 0;
 
@@ -24,6 +24,6 @@ void more_numbers(void)
 
 		_putchar('\n');
 
-	x++;
+	m++;
 	}
 }
