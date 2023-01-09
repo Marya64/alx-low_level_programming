@@ -2,15 +2,14 @@
 
 /**
  * _isalpha - Return 1 if c is a letter. lowercase or uppercase
- *@c: integer
- * Return: 0 if otherwise
+ *@c: unisgned int value to be compared with ASCII values
+ * Return: 1 if its alphabet otherwise 0
  */
 
 int _isalpha(int c)
 {
-	/**int c;*/
 
-	if (_isalpha('c') > 0)
+	if (c >= 65 && c <= 122)
 		return (1);
 	else
 		return (0);
