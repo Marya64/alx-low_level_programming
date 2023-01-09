@@ -2,7 +2,7 @@
 
 /**
  * _isalpha - Return 1 if c is a letter. lowercase or uppercase
- *
+ *@c: integer
  * Return: 0 if otherwise
  */
 
