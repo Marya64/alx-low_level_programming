@@ -12,7 +12,7 @@
  */
 int main(int argc, char **argv)
 {
-	int n, m, diff;
+	int a, b, diff;
 
 	if (argc != 3)
 	{
@@ -20,9 +20,9 @@ int main(int argc, char **argv)
 		return (1);
 	}
 
-	n = atoi(argv[1]);
-	m = atoi(argv[2]);
-	diff = n * m;
+	a = atoi(argv[1]);
+	b = atoi(argv[2]);
+	diff = a * b;
 	printf("%i\n", diff);
 
 	return (0);
